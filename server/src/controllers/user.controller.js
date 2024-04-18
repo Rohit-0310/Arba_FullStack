@@ -2,7 +2,7 @@ const express = require("express");
 
 const User = require("../models/user.model")
 
-const crudController = require("./crud.Controller")
+const crudController = require("./crud.controller")
 
 const router = express.Router(); 
 

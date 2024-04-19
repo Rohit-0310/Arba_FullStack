@@ -2,6 +2,8 @@ const express = require("express");
 
 const connect = require("./configs/db")
 
+const cors = require("cors")
+
 const PORT = 3001
 
 
@@ -13,6 +15,7 @@ const app = express();
 
 app.use(express.json());
 
+app.use(cors());
 
 app.use("/users", userController);
 app.use("/category", categoryController);

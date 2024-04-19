@@ -39,6 +39,9 @@ function NavBar() {
   const handleMyStore = () =>{
     navigate("/MyStore");
   }
+  const handleMyProfile = () =>{
+    navigate("/Profile");
+  }
   const handleLogOut = () =>{
     navigate("/Login");
   }
@@ -52,7 +55,7 @@ function NavBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -159,7 +162,7 @@ function NavBar() {
               <MenuItem onClick={handleMyStore}>
                 <Typography textAlign="center">My Store</Typography>
               </MenuItem>
-              <MenuItem onClick={handleCloseUserMenu}>
+              <MenuItem onClick={handleMyProfile}>
                 <Typography textAlign="center">Profile</Typography>
               </MenuItem>
               <MenuItem onClick={handleLogOut}>

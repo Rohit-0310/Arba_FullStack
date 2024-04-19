@@ -1,0 +1,22 @@
+.categoryMain{
+    max-width: 720px;
+    margin: 0 auto;
+    min-height: 50vh;
+    /* border: 2px solid black; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        /* grid-template-columns: repeat(6, 15.5%); */
+        grid-gap: 2%;
+        /* margin: 5%; */
+    /* margin: 20px 20px 20px 20px; */
+    padding:0px 5px 10px 5px
+    
+}
+
+.categoryBox{
+    /* border: 1px solid red; */
+    display: flex;
+   margin: 5px 0px 10px 5px;
+   cursor: pointer;
+}

@@ -47,7 +47,7 @@ const LogIn = () => {
         justifyContent: "center",
       }}
     >
-      <Grid container sx={{ border: "3px solid red" }}>
+      <Grid container>
         <Grid item xs={6}>
           <div className={classes.leftPanel}>
             <img src={logInImage} className={classes.image} alt="error" />
@@ -88,6 +88,7 @@ const LogIn = () => {
               className={classes.margin}
               variant="contained"
               onClick={checkLogin}
+              sx={{margin:'10px'}}
             >
               Login
             </Button>

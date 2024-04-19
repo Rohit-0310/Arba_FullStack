@@ -39,6 +39,9 @@ function NavBar() {
   const handleMyStore = () =>{
     navigate("/MyStore");
   }
+  const handleLogOut = () =>{
+    navigate("/Login");
+  }
 
   return (
     <AppBar position="static">
@@ -159,7 +162,7 @@ function NavBar() {
               <MenuItem onClick={handleCloseUserMenu}>
                 <Typography textAlign="center">Profile</Typography>
               </MenuItem>
-              <MenuItem onClick={handleCloseUserMenu}>
+              <MenuItem onClick={handleLogOut}>
                 <Typography textAlign="center">Logout</Typography>
               </MenuItem>
               {/* ))} */}

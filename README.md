@@ -49,10 +49,11 @@
 
  <ul>
 
- <li style="color:blue">React.Js</li>
+ <li style="color:blue">React.js</li>
  <li style="color:blue">SCSS</li>
+ <li style="color:blue">Node.js</li>
+ <li style="color:blue">Express.js</li>
  <li style="color:blue">MongoDB</li>
- <li style="color:blue">Node.Js</li>
  </ul>
 
 
